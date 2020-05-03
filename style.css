@@ -1,0 +1,16 @@
+@media (min-width: 500px) {
+    #title::before {
+        content: "Welcome to My First Web Page!";
+    }
+}
+
+@media (max-width: 499px) {
+    #title::before {
+        content: "Welcome!";
+    }
+}
+
+#title{
+    font-weight: bold;
+    text-align: center;
+}
