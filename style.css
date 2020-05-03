@@ -1,16 +1,62 @@
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     #title::before {
         content: "Welcome to My First Web Page!";
     }
 }
 
-@media (max-width: 499px) {
+@media (max-width: 599px) {
     #title::before {
         content: "Welcome!";
     }
 }
 
-#title{
+#title {
     font-weight: bold;
     text-align: center;
+}
+
+
+
+.menu {
+    background-color: black;
+}
+
+.links a {
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.links a:hover {
+    color: grey;
+}
+
+div {
+    border: ridge red
+}
+
+.photo {
+    padding-top: 50px;
+}
+
+.about_me {
+    padding-top: 20px;
+}
+
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    
+    
 }
