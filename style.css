@@ -44,19 +44,24 @@ div {
 }
 
 #footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
+    margin-top: 6.5%; 
+    position: relative; 
+    background-color: black;
+    height: 100%;
     width: 100%;
     overflow:hidden;
+}
+
+#footer ul{
+    padding-top: 2%;
+}
+#footer p{ 
+    text-align: center;
+    color:grey;
+    
 }
 
 html {
     position: relative;
     min-height: 100%;
-}
-body {
-    
-    
 }
