@@ -32,7 +32,7 @@
 }
 
 div {
-    border: ridge red
+   
 }
 
 .photo {
@@ -43,25 +43,3 @@ div {
     padding-top: 20px;
 }
 
-#footer {
-    margin-top: 6.5%; 
-    position: relative; 
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    overflow:hidden;
-}
-
-#footer ul{
-    padding-top: 2%;
-}
-#footer p{ 
-    text-align: center;
-    color:grey;
-    
-}
-
-html {
-    position: relative;
-    min-height: 100%;
-}
