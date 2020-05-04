@@ -14,6 +14,6 @@ In this file there are several examples of my favorite interests and activities 
 
 In this file I explain things about the university where I am currently studying.
 
-## contact_me
+## contact_me.html
 
 In this file I list in a table the different links to my social networks (the links are not real).
