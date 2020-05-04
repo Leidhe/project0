@@ -1,62 +1,72 @@
 @media (min-width: 600px) {
-    #title::before {
-        content: "Welcome to My First Web Page!";
-    }
-}
+  #title::before {
+    content: "Welcome to My First Web Page!";
+  }
 
+  p, ul {
+    font-size: 20px;
+  }
+}
 @media (max-width: 599px) {
-    #title::before {
-        content: "Welcome!";
-    }
-}
+  #title::before {
+    content: "Welcome!";
+  }
 
+  p, ul {
+    font-size: 17px;
+  }
+}
 #title {
-    font-weight: bold;
-    text-align: center;
+  font-weight: bold;
+  text-align: center;
 }
-
-
 
 .menu {
-    background-color: black;
+  background-color: black;
 }
 
 .links a {
-    color: white;
-    font-weight: bold;
-    font-size: larger;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
 }
-
 .links a:hover {
-    color: grey;
-}
-
-div {
-   
+  color: grey;
 }
 
 .photo {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .about_me {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
-.center{
-    text-align: center;
-    margin-top: 10px;
-    font-weight: bold;
-}
-.row{
-    margin-top: 30px;
+.center, .row {
+  margin-top: 30px;
 }
 
-
-.grid-space{
-    
+.row {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    margin-top: 10px;
+.center {
+  text-align: center;
+  font-weight: bold;
+  color: brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+p {
+  margin-top: 10px;
+}
+
+p::first-letter {
+  font-size: x-large;
+}
+
+a[target=Social_media] {
+  color: brown;
+}
+
+/*# sourceMappingURL=style.css.map */
